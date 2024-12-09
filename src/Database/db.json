@@ -1,0 +1,36 @@
+{
+    "products": [
+        {
+            "id":"501",
+            "Pname": "gold chain",
+            "Pprice":"230000",
+            "Pquantity":"6"
+        },
+        
+        {
+            "id":"502",
+            "Pname": "gold ring",
+            "Pprice":"120000",
+            "Pquantity":"10"
+        },
+        
+        {
+            "id":"503",
+            "Pname": "Anklet",
+            "Pprice":"420000",
+            "Pquantity":"9"
+        },
+        {
+            "id":"504",
+            "Pname": "gold bangles",
+            "Pprice":"330000",
+            "Pquantity":"5"
+        },
+        {
+            "id":"505",
+            "Pname": "Diamond watch",
+            "Pprice":"520000",
+            "Pquantity":"2"
+            }
+]
+}
