@@ -1,0 +1,18 @@
+<div>
+    <form [formGroup]="LoginForm" (ngSubmit)="AuthenticateUser()">
+        <div class="">
+            <label for="userid">UserId</label>
+            <input type="text" id="userid" formControlName="id" (blur)="validate('id')">
+        </div>
+        <div class="">
+            <label for="userpassword">Password</label>
+            <input type="text" id="userpassword" formControlName="password" (blur)="validate('password')">
+        </div>
+        <!--  -->
+        <button type="submit" *ngIf="LoginForm.valid">login</button>
+        <a [routerLink]="['/userregistration']">New User</a>
+        <a [routerLink]="['/forgotpassword']">Forgot Password</a>
+    </form>
+</div>
+
+
