@@ -56,7 +56,7 @@
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
               "ToolTip": "C:\\Users\\sanka\\Desktop\\RefProject11\\FinalProj\\Attendance_management\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAwwCEAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAwwCIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-11T17:03:42.123Z",
               "EditorCaption": ""
@@ -71,8 +71,7 @@
               "RelativeToolTip": "Controllers\\AttendancerequestController.cs",
               "ViewState": "AgIAAJ0AAAAAAAAAAAAwwKgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T02:04:58.229Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-11T02:04:58.229Z"
             },
             {
               "$type": "Document",
@@ -121,8 +120,7 @@
               "RelativeToolTip": "Controllers\\AttendanceController.cs",
               "ViewState": "AgIAAOMBAAAAAAAAAAAiwOYBAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T07:10:46.265Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-10T07:10:46.265Z"
             },
             {
               "$type": "Document",
@@ -134,8 +132,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T11:51:12.319Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T11:51:12.319Z"
             },
             {
               "$type": "Document",
@@ -147,8 +144,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-09T15:58:09.218Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T15:58:09.218Z"
             }
           ]
         }

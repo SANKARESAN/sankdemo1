@@ -1,17 +1,16 @@
-<!-- <p>attendance-mark works!</p> -->
-
-<div class="container">
-    <h2>Mark Attendance</h2>
-  
-    <form >
-      <div class="form-group">
-        <label for="attendanceDate">Select Date:</label>
-        <input type="date" id="attendanceDate" class="form-control" [(ngModel)]="attendanceDate" name="attendanceDate" required/>
+<div class="container mt-5">
+  <div class="card shadow-lg">
+      <div class="card-header bg-primary text-white">
+          <h2 class="mb-0 text-center">Mark Attendance</h2>
       </div>
-  
-      <button (click)="submitAttendance()" class="btn btn-primary">Submit Attendance</button>
-    </form>
+      <div class="card-body">
+          <form>
+              <div class="form-group">
+                  <label for="attendanceDate" class="form-label">Select Date:</label>
+                  <input type="date" id="attendanceDate" class="form-control" [(ngModel)]="attendanceDate" name="attendanceDate" required />
+              </div>
+              <button (click)="submitAttendance()" class="btn btn-primary mt-3">Submit Attendance</button>
+          </form>
+      </div>
   </div>
-
-
-  
+</div>

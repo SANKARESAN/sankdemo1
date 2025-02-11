@@ -1,36 +1,36 @@
 <div class="container mt-5">
-  <div class="card shadow-lg">
-      <div class="card-header bg-primary text-white">
-          <h2 class="mb-0 text-center">Teachers Attendance Requests</h2>
-      </div>
-      <div class="card-body">
-          <div class="table-responsive">
-              <table class="table table-bordered table-striped text-center align-middle">
-                  <thead class="table-dark">
-                      <tr>
-                          <th>User ID</th>
-                          <th>Date</th>
-                          <th>Status</th>
-                          <th>Action</th>
-                      </tr>
-                  </thead>
-                  <tbody>
-                      <tr *ngFor="let request of attendanceRequests">
-                          <td>{{ request.userId }}</td>
-                          <td>{{ request.date }}</td>
-                          <td class="text-dark fw-normal">{{ request.status }}</td>  <!-- Normal black text -->
-                          <td>
-                              <button class="btn btn-success btn-sm me-2" (click)="onSubmit(request)">
-                                  <i class="bi bi-check-circle"></i>
-                              </button>
-                              <button class="btn btn-danger btn-sm" (click)="onReject(request)">
-                                  <i class="bi bi-x-circle"></i>
-                              </button>
-                          </td>
-                      </tr>
-                  </tbody>
-              </table>
-          </div>
-      </div>
-  </div>
+    <div class="card shadow-lg">
+        <div class="card-header bg-primary text-white">
+            <h2 class="mb-0 text-center">Teacher Attendance Requests</h2>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped text-center align-middle">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>User ID</th>
+                            <th>Date</th>
+                            <th>Status</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let request of attendanceRequests">
+                            <td>{{ request.userId }}</td>
+                            <td>{{ request.date }}</td>
+                            <td class="text-dark fw-normal">{{ request.status }}</td>  
+                            <td>
+                                <button class="btn btn-success btn-sm me-2" (click)="onSubmit(request)">
+                                    <i class="bi bi-check-circle"></i>
+                                </button>
+                                <button class="btn btn-danger btn-sm" (click)="onReject(request)">
+                                    <i class="bi bi-x-circle"></i>
+                                </button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
 </div>
